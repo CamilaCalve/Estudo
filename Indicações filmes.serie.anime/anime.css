@@ -1,22 +1,20 @@
 *{
-
     font-family: Arial, Helvetica, sans-serif;
 }
 
 body{
-    background-color: rgb(253, 238, 220);
     margin: 0;
     padding: 0;
     display: flex;
     flex-direction: column;
 }
 
-
 .destaque{
     color: crimson;
     text-align: left;
     font-size: 30px;
 }
+
 .logo{
     color: rgb(255, 255, 255);
     font-weight: bold;
@@ -51,55 +49,73 @@ header {
     color: white;
     margin: 0; 
 }
-main {
-    flex: 1;
-}
 
-
-
-.cor {
-    background-color: lightgray;
-    min-height: 60vh; 
-    margin: 0;
-    padding: 0;
-    display: flex;
-    flex-direction: column;
-}
-
-#titulo {
-    margin: 15px 0px;
+.bloco{
+    display: inline-block;
     text-align: center;
-    font-size: 1.5em;
+    border-radius: 20px;
+    box-shadow: black 0px 0px 10px;
+    width: 55%;
+    padding: 20px;
+    margin-top: 20px;
 }
 
-.partes{
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-}
-
-.categoria:hover{
-    transform: scale(1.05);
-}
-
-.categoria{
-    background-color: lightgray;
-    border-radius: 15px;
-    padding: 15px;
-    width: 300px;
-    box-shadow: 5px 5px 10px gray;
-    transition: transform 0.3s ease;
-}
-.categoria a{
-    margin: 10px 0;
-    text-decoration: none;
-    font-size: 1.5em;
+.descricao {
+    text-align: justify;
+    margin: 3px 20px 20px 20px;
+    font-size: 18px;
+    line-height: 1.6;
     color: black;
 }
 
-.categoria img{
-    width: 100%;
+img {
+    height: 400px;
     border-radius: 15px;
+    margin-bottom: 10px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.negrito {
+    font-weight: bold;
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    margin: 5px 0;
+}
+
+.txt {
+    color: green;
+}
+
+.texto{
+    color: rgb(35, 64, 77);
+}
+
+h2 {
+    color: black;
+    font-size: 30px;
+
+}
+
+.botao{
+   background-color:  crimson;
+    padding: 10px 20px;
+    font-weight: bold;
+    border-radius: 11px;
+}
+
+.botao:hover{
+    transform: scale(1.05);
+}
+
+.botao a {
+    text-decoration: none;
+    color: white;
 }
 
 .contato {
